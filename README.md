@@ -1,5 +1,3 @@
-# mental_health_text_classification_using_nlp
-
 # Mental Health Text Classification Using NLP and Machine Learning
 
 ## Project Overview
