@@ -288,49 +288,6 @@ Potential directions for further work include:
 - **Evaluation:** Scikit-learn metrics
 - **Environment:** Jupyter Notebook / Google Colab
 
-## Repository Structure
-
-```text
-mental-health-nlp-classification/
-│
-├── data/
-│   └── Combined Data.csv
-│
-├── notebooks/
-│   └── mental_health_nlp_classification.ipynb
-│
-├── results/
-│   ├── model_comparison.csv
-│   └── figures/
-│       ├── confusion_matrix.png
-│       └── ...
-│
-├── requirements.txt
-└── README.md
-```
-
-The repository structure is a suggested organization. Include only the files and results actually available in the repository. Avoid committing sensitive data or datasets whose license does not permit redistribution.
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/mental-health-nlp-classification.git
-cd mental-health-nlp-classification
-```
-
-Install the required libraries:
-
-```bash
-pip install pandas numpy scikit-learn imbalanced-learn
-pip install torch transformers datasets
-```
-
-Open the notebook in Jupyter or Google Colab and execute the workflow.
-
-For BERT fine-tuning, using a GPU-enabled environment is recommended to reduce training time.
-
 ## Conclusion
 
 This project implements an end-to-end NLP classification workflow, from text preprocessing and numerical representation to model training and evaluation.
